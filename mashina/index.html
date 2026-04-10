@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mashina — zamonaviy avtomobillar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header__inner">
+      <a href="#" class="logo">Mashina<span>.</span></a>
+      <nav class="nav" aria-label="Asosiy menyu">
+        <a href="#modellar">Modellar</a>
+        <a href="#xizmat">Xizmat</a>
+        <a href="#aloqa">Aloqa</a>
+      </nav>
+      <a href="#aloqa" class="btn btn--sm">Buyurtma</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">2026 — yangi avlod</p>
+        <h1>Yo‘lingizni <br /><span class="gradient-text">o‘zingiz tanlang</span></h1>
+        <p class="lead">
+          Shahar va yo‘l uchun tanlangan modellar: tejamkor, xavfsiz va zamonaviy dizayn.
+          Maslahat, test-drayv va moliyaviy yechimlar — bitta joyda.
+        </p>
+        <div class="hero__actions">
+          <a href="#modellar" class="btn">Katalogni ko‘rish</a>
+          <a href="#xizmat" class="btn btn--ghost">Qanday ishlaymiz</a>
+        </div>
+        <dl class="stats">
+          <div>
+            <dt>120+</dt>
+            <dd>Mashina varianti</dd>
+          </div>
+          <div>
+            <dt>15 yil</dt>
+            <dd>Tajriba</dd>
+          </div>
+          <div>
+            <dt>24/7</dt>
+            <dd>Qo‘llab-quvvatlash</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card">
+          <img
+            src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80"
+            alt=""
+            
+            width="640"
+            height="400"
+            loading="eager"
+          />
+          <div class="hero__badge">Yangi kelish</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="modellar">
+    <div class="wrap">
+      <header class="section__head">
+        <h2>Tanlangan modellar</h2>
+        <p>Har bir tur uchun — sedan, krossover va SUV.</p>
+      </header>
+      <div class="cards">
+        <article class="car-card">
+          <div class="car-card__img">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80" alt="Qora sport avtomobil" width="400" height="260" loading="lazy" />
+          </div>
+          <div class="car-card__body">
+            <h3>Aurora GT</h3>
+            <p class="car-card__meta">2.0 L · avtomat · 185 ot kuchi</p>
+            <p class="car-card__price">dan 289 000 000 so‘m</p>
+            <a href="#aloqa" class="link-arrow">Batafsil</a>
+          </div>
+        </article>
+        <article class="car-card">
+          <div class="car-card__img">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&q=80" alt="Oq krossover" width="400" height="260" loading="lazy" />
+          </div>
+          <div class="car-card__body">
+            <h3>Nomad X</h3>
+            <p class="car-card__meta">1.5 L turbo · AWD · xavfsizlik paketi+</p>
+            <p class="car-card__price">dan 312 000 000 so‘m</p>
+            <a href="#aloqa" class="link-arrow">Batafsil</a>
+          </div>
+        </article>
+        <article class="car-card">
+          <div class="car-card__img">
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Qizil sedan" width="400" height="260" loading="lazy" />
+          </div>
+          <div class="car-card__body">
+            <h3>Vega Sedan</h3>
+            <p class="car-card__meta">Gibrid · 4.2 L/100 km · keng salon</p>
+            <p class="car-card__price">dan 265 000 000 so‘m</p>
+            <a href="#aloqa" class="link-arrow">Batafsil</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="xizmat">
+    <div class="wrap">
+      <header class="section__head">
+        <h2>Nima uchun biz?</h2>
+        <p>Shaffof narx, tekshirilgan tarix va keyingi xizmatlar.</p>
+      </header>
+      <ul class="features">
+        <li>
+          <span class="features__icon" aria-hidden="true">✓</span>
+          <div>
+            <h3>Texnik ko‘rik</h3>
+            <p>Har bir mashina diagnostika va hujjatlar bilan keladi.</p>
+          </div>
+        </li>
+        <li>
+          <span class="features__icon" aria-hidden="true">◇</span>
+          <div>
+            <h3>Kredit va muddatli to‘lov</h3>
+            <p>Bank hamkorlari bilan individual shartlar.</p>
+          </div>
+        </li>
+        <li>
+          <span class="features__icon" aria-hidden="true">◎</span>
+          <div>
+            <h3>Test-drayv</h3>
+            <p>Haqiqiy yo‘lda sinab ko‘rish — ro‘yxatdan o‘tmasdan.</p>
+          </div>
+        </li>
+        <li>
+          <span class="features__icon" aria-hidden="true">+</span>
+          <div>
+            <h3>Keyingi xizmat</h3>
+            <p>YOQ, filtr, shina — eslatmalar va yozuvlar.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section cta" id="aloqa">
+    <div class="wrap cta__inner">
+      <div>
+        <h2>Mashina tanlashda yordam kerakmi?</h2>
+        <p>Telefon yoki formada qoldiring — mutaxassis 30 daqiqa ichida qo‘ng‘iroq qiladi.</p>
+      </div>
+      <form class="cta__form" action="#" method="post">
+        <label class="sr-only" for="phone">Telefon</label>
+        <input id="phone" type="tel" name="phone" placeholder="+998 __ ___ __ __" autocomplete="tel" />
+        <button type="submit" class="btn">Jo‘natish</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__brand">© 2026 Mashina. Namuna sayt.</p>
+      <div class="footer__links">
+        <a href="#">Maxfiylik</a>
+        <a href="#">Oferta</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
